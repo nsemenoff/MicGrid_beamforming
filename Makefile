@@ -2,8 +2,8 @@
 ## Created by Anjuta
 
 CC = g++
-CFLAGS = -g -Wall
-OBJECTS = main.o xenomorph.o
+CFLAGS = -g -Wall -fpermissive
+OBJECTS = main.o xenomorph.o fft.o
 INCFLAGS = 
 LDFLAGS = -Wl,-rpath,/usr/local/lib
 LIBS = 

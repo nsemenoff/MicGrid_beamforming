@@ -16,6 +16,7 @@ const double V_MIN = -60;
 const double V_MAX = 60;
 
 const double FD = 48000;
+const double C = 335;
 const double COORD_X[MIC_ARRAY_SIZE] = {-0.22, -0.12, -0.05, 0.00, 0.05, 0.12, 0.22,
                             -0.22, -0.12, -0.05, 0.00, 0.05, 0.12, 0.22,
                             -0.22, -0.12, -0.05, 0.00, 0.05, 0.12, 0.22,
